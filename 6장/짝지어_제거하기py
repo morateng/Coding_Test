@@ -1,0 +1,18 @@
+
+def is_empty(stack):
+    if len(stack) == 0:
+        return 1
+    else: return 0
+
+def solution(s):
+    stack = []
+    for index, k in enumerate(s):
+        stack.append(k)
+        print(stack)
+        if len(stack) >= 2 and stack[len(stack)-1] == stack[len(stack)-2]:
+            stack.pop()
+            stack.pop()
+    return is_empty(stack)
+
+s = 'baabaa'
+print(solution(s))
