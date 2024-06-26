@@ -14,5 +14,3 @@ arr = [2, 3, 5, 9]
 target = 10
 
 print(solution(arr, target))
-    
-    
