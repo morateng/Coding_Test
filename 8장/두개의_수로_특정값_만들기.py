@@ -7,8 +7,7 @@ def solution(arr, target):
     
     if target in add_arr:
         return True
-    else:
-        return False
+    return False
 
 arr = [2, 3, 5, 9]
 target = 10
