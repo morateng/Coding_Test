@@ -1,8 +1,4 @@
 
-
-
-
-
 def solution(nums):
     
     tree = set(nums)
