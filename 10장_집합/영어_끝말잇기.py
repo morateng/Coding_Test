@@ -7,6 +7,7 @@ words_2 = ['hello', 'observe', 'effect', 'take']
 
 n_3 = 2
 words_3 = ['hello', 'one', 'even', 'never', 'now', 'world', 'draw']
+
 def solution(n, words):
     count = [0 for _ in range(n)]
     seq = []
